@@ -1,0 +1,40 @@
+name: MarkMind
+version: 1.0.1+2
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter_link_previewer: 3.2.2
+  url_launcher: 6.1.14
+  shared_preferences: 2.2.1
+  adaptive_theme: 3.4.1
+  upgrader: 8.1.0
+  receive_sharing_intent: 
+    git: https://github.com/baguskto/receive_sharing_intent.git
+  share_handler: ^0.0.19
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_test: 
+    sdk: flutter
+
+flutter_launcher_icons: 
+  android: launcher_icon
+  image_path: assets/images/logo.png
+  ios: true
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter: 
+  assets: 
+    - assets/images/
+    - assets/icons/
+  uses-material-design: true
+
